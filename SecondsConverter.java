@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class SecondsConverter here.
+ * Converts an arbitrary number of seconds to a string in "hours, minutes, seconds" format.
  * 
- * @author (your name)
- * @version (a version number or a date)
+ * @author Terence Wu
+ * @version 9/3/2024
  */
 public class SecondsConverter {
     /**
@@ -17,8 +17,12 @@ public class SecondsConverter {
      */
 
     String secondsToHMS(int seconds) {
-        // TODO
-        return ""; // delete this line of code
+
+        int hrs, min, sec;
+        sec = seconds%60;
+        min = (seconds/60)%60;
+        hrs = seconds/3600;
+        return hrs+" hours, "+min+" minutes, and "+sec+" seconds";
     }
 
 }

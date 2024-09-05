@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class SecondsConverterMain here.
+ * Main function for SecondsConverter class
  * 
- * @author (your name)
- * @version (a version number or a date)
+ * @author Terence Wu
+ * @version 9/4/2024
  */
 public class SecondsConverterMain {
     public static void main(String[] args) {
